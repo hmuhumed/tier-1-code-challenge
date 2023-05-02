@@ -71,12 +71,12 @@ console.log('Therefore my score is ' , myscore);
 // 8. Check whether or not your score is higher than the highScore.
 // 8-1 If your score is higher, change highScore to the new high score.
 if (myscore > highScore) {
-  let myScore = highScore
+  highScore = myscore
   console.log(myscore, "which is my score is higher than the high score of", highScore);
-} else {
-  console.log('Whew, my score of ' + myscore + 'is not higher than the high score which is ' + highScore);
 }; 
 
+// Switched from using let on code line 74. 
+// erased my else statement because it wasn't needed.
 
 
 // used extension Prettier to clean my code. 
